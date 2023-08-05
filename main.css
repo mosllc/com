@@ -1,0 +1,1567 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.HeaderMainLine{
+    width: 99.4%;
+    height: 100px;
+    border: 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+}
+/* .lineborder{
+    width: 700px;
+    height: 100px;
+    background: #ff0000;
+    margin-left: auto;
+    position: relative;
+    border-radius: 50px 0px 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.Flag{
+    width: 40px;
+    height: 25px;
+    display: block;
+    z-index: 10;
+}
+.holderOfFlags{
+    width: 40px;
+    height: 30px;
+    border: 1px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    position: relative;
+    top: 0px;
+    right: 100px;
+}
+.details{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 800px;
+    border: 1px;
+
+}
+.Sections a{
+    font-family: "Classic";
+    font-size: 28px;
+    transition: 0.4s;
+    color: #525557;
+    border: 1px solid rgb(255, 255, 255);
+
+}
+.SectionSevices{
+    font-family: "Classic";
+    font-size: 28px;
+    transition: 0.4s;
+    color: #525557;
+    border: 1px solid rgb(255, 255, 255);
+}
+.serviceMenu{
+    width: 100%;
+    height: 500px;
+    background: #ffffff;
+    position: absolute;
+    top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 100;
+    display: none;
+}
+.MenuLinkersM{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    width: 300px;
+    padding: 30px 0px;
+}
+.MenuLinkers:hover{
+    color: #29a544;
+    cursor: pointer;
+}
+.controllerofLinkres{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 400px;
+    border: 1px;
+}
+.MenuLinkers{
+    font-family: "Classic";
+    flex-wrap: wrap;
+    width: 400px;
+    height: 50px;
+    font-size: 16px;
+}
+.SectionsWHY{
+    width: 200px;
+    height: 70px;
+    background: linear-gradient(59deg, rgba(16,33,51,1) 0%, rgba(39,69,79,1) 41%, rgba(68,133,97,1) 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    transition: 1s;
+}
+.SectionsWHY:hover{
+    background: linear-gradient(269deg, rgba(16,33,51,1) 0%, rgba(39,69,79,1) 41%, rgba(68,133,97,1) 90%);
+}
+.SectionsWHY a{
+    font-family: "Classic";
+    font-size: 28px;
+    transition: 0.4s;
+    color: rgb(255, 255, 255);
+
+}
+.Sections a:hover{
+    border: 1px solid rgb(255, 140, 0);
+    border-radius: 10px 0 10px 0;
+}
+.decorativeAnim{
+    width: 200px;
+    height: 200px;
+    border: 1px;
+}
+
+.circleline{
+    width: 200px;
+    height: 200px;
+    animation-name: rotating;
+    animation-duration: 3s;
+    animation-iteration-count: 1000;
+}
+.circleline2{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: -100px;
+    right: -50px;
+    transform: rotate(0deg);
+    animation-name: rotating;
+    animation-duration: 4s;
+    animation-iteration-count: 1000;
+
+}
+@keyframes rotating{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.decotiveElement{
+    width: 15px;
+    height: 400px;
+    background: #1f2f83;
+    border-radius: 10px 0px 10px 0px;
+}
+.decotiveElement2{
+    width: 15px;
+    height: 400px;
+    background: #1f2f83;
+    border-radius: 10px 0px 10px 0px;
+    transform: rotate(270deg);
+    position: relative;
+    top: 200px;
+    left: 160px;
+}
+.welcoming img{
+    height: 145px;
+    width: 140px;
+    z-index: 1;
+    margin: 10px;
+    position: relative;
+    left: 200px;
+}
+.MainLogo{
+    position: relative;
+    left: 300px;
+}
+.nameOfBrend{
+    width: 350px;
+    position: relative;
+    left: 215px;
+}
+.nameOfBrend span{
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* background: -webkit-linear-gradient(#38948f, #1aca3d); */
+   /* -webkit-background-clip: text; */
+   /* -webkit-text-fill-color: transparent; */
+}
+.nameOfBrend p{
+    font-size: 22px;
+    font-family: "Classic";
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hederbody{
+    width: 99.4%;
+    height: 900px;
+    border: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #bac2c7;
+    gap: 40px;
+}
+.MainPageLogo{
+    width: 1200px;
+    height: 550px;
+}
+.IntroText{
+    font-family: "Classic";
+    font-size: 40px;
+    width: 550px;
+    height: 300px;
+    border: 1px ;
+    content: "";
+    z-index: 10;
+    border-radius: 0px 50px 0px 50px;
+}
+.WhyUsText{
+    min-width: 200px;
+    max-width: 500px;
+    height: 200px;
+    border: 1px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    right: 500px;
+}
+.WhyUsText span{
+    font-size: 40px;
+}
+.WhyUsText p{
+    font-family: "Classic";
+    font-size: 25px;
+}
+.Outing{
+    font-size: 70px;
+}
+.welcoming{
+    animation-name: WelcomingAnim;
+    animation-duration: 2s;
+    animation-iteration-count: initial;
+}
+.changed{
+    animation-name: Appear;
+    animation-duration: 1s;
+    animation-iteration-count: initial;
+}
+@keyframes WelcomingAnim{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(10deg);
+    }
+    100%{
+        transform: rotate(0deg);
+        opacity: 0;
+    }
+}
+@keyframes Appear{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 100;
+    }
+}
+.line{
+    width: 99.4%;
+    height: 1px;
+    background: #7c7676;
+}
+.InformationBody{
+    width: 99.6%;
+    height: 1200px;
+    background: rgb(2,0,36);
+    background:#bac2c7 ;
+}
+.Information{
+    display: flex;
+    justify-content: center;
+}
+.Information p{
+    font-family: "Classic";
+    font-size: 40px;
+    position: relative;
+    top: 100px;
+}
+.outsourcingInfo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 1px;
+    height: 600px;
+}
+.card{
+    width: 650px;
+    height: 380px;
+    border-radius: 10px;
+    border: 1px ;
+    position: relative;
+    top: 150px;
+    background:#bac2c7 ;
+    box-shadow: 1px 1px 20px 1px #939596;
+}
+.card p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    line-height: 35px;
+    margin: 20px;
+}
+.outStuffinginfo{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px ;
+    justify-content: space-between;
+    height: 600px;
+}
+.StuffingInfo{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+}
+.Descript {
+    font-family: "Classic";
+    font-size: 20px;
+    width: 640px;
+    border: 1px;
+    margin: 20px;
+    line-height: 28px;
+}
+.InformateStufing{
+    position: relative;
+    bottom: 100px;
+    font-size: 50px;
+    font-family: "Classic";
+}
+.cardForStuffing{
+    width: 650px;
+    height: 380px;
+    border-radius: 10px;
+    border: 1px ;
+    position: relative;
+    top: 100px;
+    background:#bac2c7 ;
+    box-shadow: 1px 1px 20px 1px #939596;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.cardForStuffing p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    line-height: 35px;
+    margin: 20px;
+}
+.aboutUsBody{
+    width: 99.4%;
+    height: 1000px;
+    border: 1px solid rebeccapurple;
+    background: #bac2c7;
+    opacity: 0.9;
+}
+.mainInfoCard{
+    width: 1250px;
+    height: 580px;
+    border-radius: 10px;
+    border: 1px ;
+    position: relative;
+    top: 150px;
+    background:#bac2c7 ;
+    box-shadow: 1px 1px 20px 1px #939596;
+    position: relative;
+    left: 00px;
+}
+.infoBox{
+    width: 600px;
+    height: 700px;
+    border: 1px ;
+    position: absolute;
+    top: 0;
+    top: 1250px;
+    left: 100px;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.linesWithInfo{
+    width: 600px;
+    height: 3px;
+    background: #b3a0a0;
+}
+.conclution{
+    height: 400px;
+    background:#1d2341;
+    width: 99.5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    opacity: 0.9;
+}
+.linkers{
+    display: flex;
+    gap: 20px;
+}
+.links{
+    width: 60px;
+    height: 60px;
+    border-radius: 90px;
+    border: 1px ;
+    transition: 0.4s;
+    filter:opacity(0.4);
+    position: relative;
+    top: 0;
+    z-index: 3;
+}
+
+.links:hover{
+    filter:opacity(1);
+    width: 75px;
+    height: 75px;
+}
+.links img{
+    width: 60px !important;
+    height: 60px !important;
+}
+.mainInfoCard p{
+    font-size: 50px;
+    font-family: "Classic2";
+    margin: 20px;
+}
+.mainInfoCard h3{
+    font-family: "Classic";
+    width: 700px;
+    margin: 20px;
+    font-size: 20px;
+}
+.H3TEXT span{
+    font-family: Classic3 ; 
+    font-size: 38px !important;
+    color: rgb(16, 16, 134);
+}
+.H3TEXT{
+    display: none;
+}
+.H3TEXT2{
+    display:grid;
+}
+.H3TEXT2 span{
+    font-family: Classic3 ; 
+    font-size: 38px !important;
+    color: rgb(16, 16, 134);
+}
+.infoBox p{
+    font-size: 50px;
+    font-family: "Classic";
+
+}
+.BenefitIs{
+    font-family: "Classic";
+    font-size: 28px !important;
+}
+.MarkIcon{
+    width: 50px;
+    height: 50px;
+}
+.logoB{
+    width: 400px;
+    min-height: 100px;
+    max-height: 200px;
+    border: 1px ;
+}
+.logoB p{
+    font-family: "Classic";
+    width: 400px;
+    font-size: 19px;
+    position: relative;
+    left: 200px;
+}
+.logoB img{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    right: -20px;
+    bottom: 100px;
+
+}
+.logoB span{
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.locationinfo{
+    width: 500px;
+    height: 50px;
+    border: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.locationinfo img{
+    width: 30px;
+    height: 30px;
+}
+.discription{
+    font-family: "Classic";
+}
+.contactinfo{
+    width: 300px;
+    height: 50px;
+    border: 1px solid red;
+    font-size: 20px;
+    position: relative;
+}
+.mainbodycard{
+    height: 500px;
+    width: 90%;
+    border: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainCardHolder{
+    width: 700px;
+    height: 370px;
+    background:#bac2c7 ;
+    box-shadow: 1px 1px 20px 1px #939596;
+    position: relative;
+    top: 160px;
+    border-radius: 30px 0 30px 0;
+    display: flex;
+    align-items: center;
+}
+@font-face {
+    font-family: "Classic";
+    src: url("Quicksand-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: "Classic2";
+    src: url("ofont.ru_Hero.ttf");
+}
+@font-face {
+    font-family: "Classic3";
+    src: url("Samson.ttf");
+}
+.liner{
+    width: 100%;
+    background: rgb(16,33,51);
+  background: linear-gradient(59deg, rgba(16,33,51,1) 0%, rgba(39,69,79,1) 41%, rgba(68,133,97,1) 90%);
+  height: 100px;
+}
+.liner{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contact{
+    font-family: "Classic";
+    font-size: 20px;
+    color: #ffffff;
+    width: 200px;
+}
+
+.PromtLinks{
+    font-size: 2em;
+    color: #4bb199;
+    font-family: "Classic";
+    position: relative;
+    bottom: 0px;
+}
+.Fastlinkers li{
+    font-family: "Classic";
+    font-size: 25px;
+    color: #ffffff;
+}
+.fastlinkersHold{
+    display: flex;
+    width: 230px;
+    flex-wrap: wrap;
+    gap: 10px;
+    border: 1px;
+    position: relative;
+}
+.ServicesSolutionsInfo{
+    display: flex;
+    width: 450px;  
+    flex-wrap: wrap;
+    gap: 10px;
+    border: 1px;
+    position: relative;
+}
+.ContactInfo{
+    display: flex;
+    width: 500px;  
+    flex-wrap: wrap;
+    gap: 10px;
+    border: 1px;
+    position: relative;
+}
+.BGC{
+    filter: blur(100px);
+    opacity: 0.3;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 1000px;
+    z-index: -1;
+}
+.infoShow{
+    width: 300px;
+    height: 640px;
+    border-radius: 20px;
+    background-color: #939596;
+    position: relative;
+    left: 800px;
+    top: 200px;
+}
+.infoShow p{
+    font-size: 18px;
+    font-family: "Classic";
+    margin: 15px;
+    padding: 20px 10px;
+}
+.appearhold{
+    display: flex;
+    flex-wrap: wrap;
+    transform: rotate(0deg);
+    width: 800px;
+    border: 1px;
+    height: 500px;
+    position: relative;
+    left: 700px;
+    top: 310px;
+    gap: 10px;
+}
+.appearbox{
+    width: 400px;
+    height: 100px;
+    background: #939596;
+    border-radius: 20px;
+    animation-duration: 1.4s;
+    animation-iteration-count: initial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: 1px 1px 1px 1px #909f92; */
+
+}
+.iconinfo{
+    border: 1px;
+    font-family: "Classic";
+    margin: 20px;
+}
+.disk{
+    width: 2700px;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 3100px;
+    right: auto;
+    margin: auto;
+}
+.out , .staf{
+    font-family: "Classic2";
+    font-size: 24px;
+    border-radius: 0px;
+    height: 300px;
+    width: 500px;
+    position: relative;
+    bottom: 200px;
+    box-shadow: 1px 1px 1px 1px #939596;
+    border-radius: 10px;
+    display: none;
+}
+.out2 , .staf2{
+    font-family: "Classic2";
+    font-size: 24px;
+    border-radius: 0px;
+    height: 300px;
+    width: 500px;
+    position: relative;
+    bottom: 200px;
+    box-shadow: 1px 1px 1px 1px #939596;
+    border-radius: 10px;
+    display: grid;
+}
+
+.arrow{
+    width: 100px;
+    height: 100px;
+    transform: rotate(90deg);
+    position: absolute;
+    bottom: 100px;
+    right: auto;
+    display: none;
+}
+.arrow img{
+    width: 100px;
+    height: 100px;
+}
+
+.changecolor:hover{
+    color: #4bb199;
+    cursor: pointer;
+}
+.BG{
+    position: absolute;
+    opacity: 0.2;
+    transform: rotate(-5deg);
+    width: 1600px;
+    height: 330px;
+    top: 3300px;
+    filter:invert(1);
+    z-index: -1;
+}
+.mainInfoCard h3 span{
+    font-size: 20px;
+}
+@keyframes Togo1{
+    0%{
+        width: 400px;
+    }
+    100%{
+        width: 500px;
+    }
+}
+@keyframes Togo2{
+    0%{
+        width: 400px;
+    }
+    100%{
+        width: 600px;
+    }
+}
+@keyframes Togo3{
+    0%{
+        width: 400px;
+    }
+    100%{
+        width: 700px;
+    }
+}
+@keyframes Togo4{
+    0%{
+        width: 400px;
+    }
+    100%{
+        width: 800px;
+    }
+}
+html body{
+    overflow-x: hidden;
+    max-width: 100%;
+
+    -youbkit-touch-callout: none;  
+    -youbkit-user-select: none;   
+    -moz-user-select: none; 
+    -ms-user-select: none;        
+    user-select: none;             
+  }
+  @media screen and (max-width : 1700px){
+    .decotiveElement , .decotiveElement2{
+        display: none;
+    }
+    .IntroText{
+        position: relative;
+        right: 200px;
+    }
+    .disk{
+        width: 1400px;
+    }
+    .out2{
+        left: 50px;
+    }
+    .BG{
+        display: none;
+    }
+    .logoB{
+        width: 300px;
+    }
+    .logoB{
+        width: 100px;
+        height: 100px;
+    }
+    .logoB img{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        bottom: 200px;
+    }
+    .logoB p{
+        left: 130px;
+        bottom: 110px;
+    }
+    .links{
+        left: 450px;
+        top: -90px;
+    }
+    .MainPageLogo{
+        width: 1000px;
+        height: 450px;
+    }
+    .nameOfBrend{
+        position: relative;
+        left: 100px;
+    }
+    .welcoming img{
+        position: relative;
+        left: 50px;
+        width: 100px;
+        height: 100px;
+    }
+    .circleline{
+        position: relative;
+        left: 250px;
+        width: 150px;
+        height: 150px;
+    }
+    .circleline2{
+        position: relative;
+        left: 200px;
+        width: 150px;
+        height: 150px;
+    }
+    .Outing{
+        font-size: 50px;
+    }
+  }
+
+  @media screen and (max-width : 1450px){
+    .serviceMenu{
+        display: none;
+    }
+    .IntroText{
+        position: relative;
+        right: 200px;
+    }
+    .disk{
+        width: 1400px;
+    }
+    .out2{
+        left: 50px;
+    }
+    .BG{
+        display: none;
+    }
+    .logoB{
+        width: 300px;
+    }
+    .logoB{
+        width: 100px;
+        height: 100px;
+    }
+    .logoB img{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        bottom: 200px;
+    }
+    .logoB p{
+        left: 130px;
+        bottom: 110px;
+    }
+    .links{
+        left: 450px;
+        top: -90px;
+    }
+    .holderOfFlags{
+        top: 100px;
+    }
+    .appearbox{
+        width: 600px;
+        height: 120px;
+    }
+    .appearhold{
+        width: 650px;
+    }
+  }
+  @media screen and (max-width : 1300px){
+    
+  }
+  @media screen and (max-width : 1200px){
+    .aboutUsBody{
+        height: 1050px;
+    }
+    .serviceMenu{
+        display: none;
+    }
+    .welcoming img{
+        width: 105px;
+        height: 105px;
+        left: 50px;
+    }
+    .nameOfBrend{
+        left: 50px;
+    }
+    .nameOfBrend span{
+        font-size: 40px;
+    }
+    .nameOfBrend p{
+        font-size: 18px;
+    }
+    .MainPageLogo{
+        width: 900px;
+        height: 450px;
+    }
+    .hederbody{
+        height: 700px;
+    }
+    .IntroText{
+        position: relative;
+        right: 250px;
+    }
+    .Outing{
+        font-size: 60px;
+    }
+    .SectionsWHY{
+        display: none;
+    }
+    .details{
+        width: 550px;
+    }
+    .holderOfFlags{
+        display: grid;
+    }
+    .infoBox{
+        top: 1000px;
+        width: 400px;
+    }
+    .appearbox{
+        width: 450px;
+        height: 150px;
+    }
+    .appearhold{
+        width: 450px;
+        height: 500px;
+        position: relative;
+        left: 550px;
+        top: 210px;
+    }
+    .iconinfo{
+        font-size: 13px;
+    }
+    .BG{
+        display: none;
+    }
+    .out2, .staf2{
+        bottom: 400px;
+    }
+    .staf2{
+        right: 300px;
+    }
+    .mainInfoCard{
+        width: 850px;
+        height: 650px;
+    }
+    .logoB img{
+        width: 70px;
+        height: 70px;
+    }
+    .logoB p{
+        left: 100px;
+        bottom: 130px;
+        font-size: 20px;
+        width: 300px;
+    }
+    .logoB span{
+        font-size: 35px;
+    }
+    .ServicesSolutionsInfo{
+        display: none;
+    }
+    .fastlinkersHold{
+        gap: 30px;
+    }
+    .disk{
+        width: 800px;
+    }
+    .staf2{
+        right: -100px;
+    }
+
+}
+@media screen and (max-width : 1000px){
+    .appearhold{
+        width: 400px;
+        top: 20px;
+    }
+    .appearbox{
+        height: 190px;
+    }
+    .details{
+        width: 500px;
+        position: relative;
+        right: 60px;
+    }
+}
+@media screen and (max-width : 900px){
+    .MainLogo{
+        width: 130px;
+        height: 100px;
+        margin: 15px;
+    }
+    .liner{
+        display: flex;
+        justify-content: flex-start;
+        gap: 30px;
+    }
+    .nameOfBrend{
+        width: 100px;
+        left: 5px;
+    }
+    .nameOfBrend p{
+        font-size: 16px;
+    }
+    .nameOfBrend span{
+        font-size: 20px;
+    }
+    .details{
+        width: 440px;
+    }
+    .infoBox{
+        position: absolute;
+        width: 700px;
+        height: 800px;
+        top: 1050px;
+        left: 0px;
+    }
+    .linesWithInfo{
+        width: 700px;
+    }
+    .SectionsWHY{
+        position: relative;
+        top: 100px;
+        right: 420px;
+        width: 150px;
+        height: 70px;
+        display: none;
+    }
+    .contact{
+        width: 70px;
+        font-size: 14px;
+    }
+    .welcoming{
+        display: none;
+    }
+    .lineborder{
+        width: 350px;
+    }
+    .Sections a{
+        font-size: 15px;
+    }
+
+    .MainPageLogo{
+        width: 750px;
+        height: 550px;
+    }
+    .hederbody{
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .circleline{
+        width: 100px;
+        height: 100px;
+    }
+    .circleline2{
+        width: 100px;
+        height: 100px;
+    }
+    .decotiveElement{
+        display: none;
+    }
+    .decotiveElement2{
+        display: none;
+    }
+    .IntroText{
+        width: 350px;
+        height: 200px;
+        right: 0px;
+    }
+    .Outing{
+        font-size: 40px;
+    }
+    .decorativeAnim{
+        position: relative;
+        top: 150px;
+        max-height: 200px;
+        right: 50px;
+    }
+    .mainInfoCard{
+        width: 640px;
+        top: 100px;
+        left: 10px;
+        height: 640px;
+    }
+    .mainInfoCard h3{
+        width: 300px;
+        margin: 10px;
+        font-size: 16px
+    }
+    .disk{
+        display: none;
+    }
+    .infoBox p{
+        font-size: 30px;
+    }
+    .aboutUsBody{
+        height: 1800px;
+        display: flex;
+        justify-content: center;
+    }
+    .BG{
+        display: none;
+    }
+    .appearhold{
+        width: 800px;
+        border: 1px;
+        height: 600px;
+        position: relative;
+        left: 0px;
+        top: 1010px;
+        gap: 10px;
+    }
+    .appearbox{
+        height: 230px;
+        width: 370px;
+    }
+    .Benefits{
+        position: relative;
+        top: 100px;
+        font-size: 20px;
+        height: 100px;
+        margin: 10px;
+
+    }
+    .BenefitIs{
+        margin: 10px;
+    }
+    .MarkIcon{
+        margin: 10px;
+    }
+    .mainbodycard{
+        left: 30px;
+    }
+    .mainCardHolder{
+        width: 350px;
+        height: 500px;
+    }
+    .Descript{
+        font-size: 16 !important;
+        width: 300px;
+        line-height: 18px;
+    }
+    .InformationBody{
+        height: 800px;
+    }
+    .line{
+        display: none;
+    }
+    .PromtLinks{
+        font-size: 16px;
+    }
+    .logoB span{
+        font-size: 18px;
+    }
+    .logoB p{
+        width: 100px;
+        font-size: 15px;
+        position: relative;
+        bottom: 180px;
+        left: 90px;
+    }
+    .logoB img{
+        width: 50px;
+        height: 50px;
+        position: relative;
+        right: -30px;
+        bottom: 240px;
+    }
+    .Fastlinkers li{
+        font-size: 12px;
+        position: relative;
+    }
+
+    .fastlinkersHold{
+        position: relative;
+        right: 100px;
+        bottom: 0px;
+        width: 300px;
+    }
+    .ServicesSolutionsInfo{
+        position: relative;
+        left: -100px;
+        top: 0px;
+        display: grid;
+    }
+    .ContactInfo{
+        position: relative;
+        bottom: 0px;
+        right: 250px;
+        gap: 25px;
+    }
+    .linkers{
+        display: none;
+    }
+    .conclution{
+        height: 600px;
+        opacity: 1;
+    }
+    .holderOfFlags{
+        display: grid;
+    }
+    .SectionSevices a{
+        font-size: 15px;
+    }
+    .SectionSevices{
+        font-size: 0px;
+    }
+    .serviceMenu{
+        display: none;
+    }
+    .mainInfoCard p{
+        font-size: 25px
+    }
+    .liner{
+        gap: 120px;
+    }
+    .ServicesSolutionsInfo{
+        left: 200px;
+        bottom: 200px;
+        gap: 30px;
+    }
+}
+@media screen and (max-width : 768px){
+    .infoBox{
+        width: 550px;
+    }
+    .aboutUsBody{
+        height: 2400px;
+    }
+
+}
+@media screen and (max-width : 500px){
+    .MainLogo{
+        width: 130px;
+        height: 100px;
+        margin: 15px;
+    }
+    .liner{
+        display: flex;
+        justify-content: flex-start;
+        gap: 30px;
+    }
+    .nameOfBrend{
+        width: 100px;
+        left: 5px;
+    }
+    .nameOfBrend p{
+        font-size: 16px;
+    }
+    .nameOfBrend span{
+        font-size: 20px;
+    }
+    .details{
+        width: 250px;
+    }
+    .infoBox{
+        position: absolute;
+        width: 350px;
+        height: 800px;
+        top: 1050px;
+        left: 0px;
+    }
+    .SectionsWHY{
+        position: relative;
+        top: 100px;
+        right: 420px;
+        width: 150px;
+        height: 70px;
+        display: none;
+    }
+    .contact{
+        width: 70px;
+        font-size: 14px;
+    }
+    .welcoming{
+        display: none;
+    }
+    .lineborder{
+        width: 250px;
+    }
+    .Sections a{
+        font-size: 15px;
+    }
+
+    .MainPageLogo{
+        width: 550px;
+        height: 250px;
+    }
+    .hederbody{
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .circleline{
+        width: 100px;
+        height: 100px;
+    }
+    .circleline2{
+        width: 100px;
+        height: 100px;
+    }
+    .decotiveElement{
+        display: none;
+    }
+    .decotiveElement2{
+        display: none;
+    }
+    .IntroText{
+        width: 350px;
+        height: 200px;
+    }
+    .Outing{
+        font-size: 30px;
+    }
+    .decorativeAnim{
+        position: relative;
+        top: 150px;
+        max-height: 200px;
+        right: 50px;
+    }
+    .mainInfoCard{
+        width: 340px;
+        top: 100px;
+        left: 10px;
+        height: 640px;
+    }
+    .mainInfoCard h3{
+        width: 300px;
+        margin: 10px;
+        font-size: 16px
+    }
+    .disk{
+        display: none;
+    }
+    .infoBox p{
+        font-size: 30px;
+    }
+    .aboutUsBody{
+        height: 2300px;
+        display: flex;
+        justify-content: center;
+    }
+    .BG{
+        display: none;
+    }
+    .appearhold{
+        width: 800px;
+        border: 1px;
+        height: 600px;
+        position: relative;
+        left: 0px;
+        top: 1010px;
+        gap: 10px;
+    }
+    .appearbox{
+        height: 230px;
+        width: 370px;
+    }
+    .Benefits{
+        position: relative;
+        top: 100px;
+        font-size: 20px;
+        height: 100px;
+        margin: 10px;
+
+    }
+    .BenefitIs{
+        margin: 10px;
+    }
+    .MarkIcon{
+        margin: 10px;
+    }
+    .mainbodycard{
+        left: 30px;
+    }
+    .mainCardHolder{
+        width: 350px;
+        height: 500px;
+    }
+    .Descript{
+        font-size: 16 !important;
+        width: 300px;
+        line-height: 18px;
+    }
+    .InformationBody{
+        height: 800px;
+    }
+    .line{
+        display: none;
+    }
+    .PromtLinks{
+        font-size: 16px;
+    }
+    .logoB span{
+        font-size: 18px;
+    }
+    .logoB p{
+        width: 100px;
+        font-size: 15px;
+        position: relative;
+        bottom: 360px;
+        left: 90px;
+    }
+    .logoB img{
+        width: 50px;
+        height: 50px;
+        position: relative;
+        right: -30px;
+        bottom: 420px;
+    }
+    .Fastlinkers li{
+        font-size: 12px;
+        position: relative;
+    }
+    .linesWithInfo{
+        width: 430px;
+    }
+    .fastlinkersHold{
+        position: relative;
+        left: 0px;
+        bottom: 200px;
+        width: 1200px;
+    }
+    .ServicesSolutionsInfo{
+        position: relative;
+        left: -100px;
+        top: 350px;
+        display: grid;
+        
+    }
+    .ContactInfo{
+        position: relative;
+        top: 50px;
+        right: 170px;
+    }
+    .linkers{
+        display: grid;
+        position: absolute;
+        right: 500px;
+        z-index: 100;
+    }
+    .links img{
+        left: 0;
+        top: 0;
+        width: 40px !important;
+        height: 40px !important;
+    }
+    .conclution{
+        height: 1100px;
+        opacity: 1;
+    }
+    .holderOfFlags{
+        display: grid;
+        position: absolute;
+        height: 24px;
+        top: 230px;
+        left: 300px;
+    }
+    .SectionSevices a{
+        font-size: 15px;
+    }
+    .SectionSevices{
+        font-size: 0px;
+    }
+    .details{
+        width: 270px;
+    }
+    .serviceMenu{
+        display: none;
+    }
+    .mainInfoCard p{
+        font-size: 25px
+    }
+
+}
+@media screen and (max-width : 390px){
+    .details{
+        width: 240px;
+    }
+    .Sections a{
+        font-size: 13px;
+    }
+    .SectionSevices a{
+        font-size: 13px;
+
+    }
+    .nameOfBrend p{
+        font-size: 14px;
+    }
+    .circleline{
+        left: 150px;
+    }
+}
+@media screen and (max-width : 340px){
+    .details{
+        width: 210px;
+    }
+    .Sections a{
+        font-size: 10px;
+    }
+    .SectionSevices a{
+        font-size: 10px;
+    }
+    .nameOfBrend p{
+        font-size: 11px;
+    }
+    .nameOfBrend span{
+        font-size: 15px;
+    }
+    .circleline{
+        left: 150px;
+    }
+    .infoBox{
+        width: 310px;
+    }
+    .BenefitIs{
+        font-size: 20px !important;
+    }
+    .appearhold{
+        width: 300px;
+        height: 260px;
+    }
+    .aboutUsBody{
+        height: 2500px;
+    }
+    .appearbox{
+        height: 270px;
+    }
+    .fastlinkersHold{
+        display: none;
+    }
+    .contactinfo{
+        top: -200px !important;
+        right: 100px;
+    }
+    .contact{
+        font-size: 10px;
+    }
+}
